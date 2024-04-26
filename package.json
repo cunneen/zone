@@ -1,8 +1,12 @@
 {
-  "name": "zone",
+  "name": "@cunneen/zone",
   "version": "0.3.5",
-  "description": "",
+  "description": "zone@0.3.4 with blip.strongloop.com fix",
   "main": "index.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "node --expose-gc test/run-tests.js --tap-on-ci",
     "benchmarks": "cd benchmarks; ./run_bench.sh"

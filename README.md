@@ -1,3 +1,26 @@
+**NOTE: This is an inactive fork of zone@0.3.4 to address the issue with `blip.strongloop.com`.**  See [Issue #57](https://github.com/strongloop/zone/issues/57) for details.
+
+To use this fork, update the `resolutions` section of your `package.json`:
+
+**YARN**
+
+```json5
+//...
+  "resolutions": {
+    "zone": "https://registry.npmjs.org/@cunneen/zone/-/@cunneen/zone-0.3.5.tgz"
+  },
+
+```
+
+**NPM**
+
+```json5
+//...
+  "overrides": {
+    "zone": "@cunneen/zone@0.3.5"
+  },
+```
+
 **NOTE: This project is deprecated and no longer being actively developed or maintained.**  See [Issue #50](https://github.com/strongloop/zone/issues/50) for details.
 
 # StrongLoop zone library
