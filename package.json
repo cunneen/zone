@@ -1,6 +1,6 @@
 {
   "name": "@cunneen/zone",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "zone@0.3.4 with blip.strongloop.com fix",
   "main": "index.js",
   "private": false,
